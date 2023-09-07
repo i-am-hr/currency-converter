@@ -8,7 +8,7 @@
 }
 
 body {
-  background-color: #9873fe;
+  background-color: #2facff;
 }
 
 .wrapper {
@@ -30,7 +30,7 @@ body {
 }
 
 .app-icon {
-  width: 9.37em;
+  width: 10.37em;
 }
 
 .app-title {
@@ -45,7 +45,7 @@ label {
 }
 
 input#amount {
-  font-weight: 400;
+  font-weight: 550;
   font-size: 1.2em;
   display: block;
   width: 100%;
@@ -56,8 +56,7 @@ input#amount {
 }
 
 input#amount:focus {
-  color: #9873fe;
-  border-color: #9873fe;
+  color: #2facff;
 }
 
 .dropdowns {
@@ -69,19 +68,26 @@ input#amount:focus {
 
 select {
   width: 100%;
-  padding: 0.6em;
+  padding: 0.6em ;
   font-size: 1em;
+  text-align: center;
+  align-items: center;
+  font-weight: 600;
   border-radius: 0.2em;
   appearance: none;
   -webkit-appearance: none;
   -moz-appearance: none;
-  background-image: url("arrow-down.svg");
   background-repeat: no-repeat;
   background-position: right 15px top 50%, center;
   background-size: 20px 20px;
-  background-color: #9873fe;
+  background-color: #2facff;
   color: #ffffff;
   cursor: pointer;
+}
+
+select:hover {
+  color: #2facff;
+  box-shadow: inset 200px 0 0 0 #d1ebfe;
 }
 
 select option {
@@ -92,13 +98,18 @@ select option {
 button {
   font-size: 1em;
   width: 100%;
-  background-color: #9873fe;
+  background-color: #2facff;
   padding: 1em 0;
   margin-top: 2em;
   border-radius: 0.3em;
   color: #ffffff;
-  font-weight: 600;
+  font-weight: 800;
   cursor: pointer;
+}
+
+button:hover {
+  color: #2facff;
+  box-shadow: inset 350px 0 0 0 #d1ebfe;
 }
 
 #result {
